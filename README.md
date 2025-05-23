@@ -9,3 +9,12 @@
 │       └── main.rs
 ├── Dockerfile              
 ```
+
+## Usage via scripts
+```Bash
+./scripts/build.sh
+
+./scripts/bash.sh
+
+./scripts/run.sh
+```

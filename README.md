@@ -2,8 +2,10 @@
 
 ## Project Structure:
 ```
-app/
-├── Cargo.toml
-└── src/
-    └── main.rs
+├── app                     <- Rust Cargo Project
+│   ├── Cargo.lock
+│   ├── Cargo.toml
+│   └── src                 <- Rust sources
+│       └── main.rs
+├── Dockerfile              
 ```

@@ -1,5 +1,5 @@
-# Use the official Rust image as the base image
-FROM rust:latest
+# Use a specific version of the slim Rust image for better security
+FROM rust:1.87-slim-bookworm
 
 # Set the working directory inside the container
 WORKDIR /usr/src/app
